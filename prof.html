@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Select Professor</title>
+  <link rel="stylesheet" href="prof.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="wrapper">
+    <header>
+    <div class="navbar">
+   <div class="navbar-content">
+    <div class="navbar-content-logo">
+      <a href="https://iitg.ac.in/sail/">
+        <img src="https://iitg.ac.in/sail/static/media/sail%20white%20logo%201.1a5b5ee342209483926a85aa53969a1f.svg" alt="logo">
+      </a>
+    </div>
+    <div class="navbar-content-title">
+      <p>Gratuity Portal</p>
+    </div>
+    <div class="navbar-hamburger ">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <div class="navbar-content-links ">
+      <a id="Fm" href="https://www.iitg.ac.in/iitg_faculty_all" class="navbar-content-links-a" target="_blank" rel="noopener noreferrer">Facuilty Members</a>
+      <button class="navbar-content-links-button-1"><a href="https://iitg.ac.in/sail/" target="_blank" rel="noopener noreferrer">Visit SAIL</a></button>
+      <button class="navbar-content-links-button"><a href="https://www.iitg.ac.in/aer/donation.php" target="_blank" rel="noopener noreferrer">Donate</a></button>
+    </div>
+  </div>
+</div>
+  </header>
+  <main>
+    <div>
+    <section class="intro-section">
+      <h1>Professors</h1>
+      <p>A professor’s influence extends far beyond the classroom—it echoes in careers, choices, and lives.</p>
+    </section>
+    </div>
+    <section>
+  <div class="container">
+    <h1>Select a Professor to Write a Testimonial</h1>
+    <div class="search-controls">
+    <input type="text" id="search" placeholder="Search for a professor..." list="professors" />
+    <select name="dept" class="form-control" required="" fdprocessedid="mjnncc">
+                <option value="Search by Department/Centre/School">Search by Department</option>
+
+     <option value="Biosciences and Bioengineering">Biosciences and Bioengineering</option>
+
+     <option value="Chemical Engineering">Chemical Engineering</option>
+
+     <option value="Chemistry">Chemistry</option>
+
+     <option value="Civil Engineering">Civil Engineering</option>
+
+     <option value="Computer Science and Engineering">Computer Science and Engineering</option>
+
+     <option value="Design">Design</option>
+
+     <option value="Electronics and Electrical Engineering">Electronics and Electrical Engineering</option>
+
+     <option value="Humanities and Social Sciences">Humanities and Social Sciences</option>
+
+     <option value="Mathematics">Mathematics</option>
+
+     <option value="Mechanical Engineering">Mechanical Engineering</option>
+
+     <option value="Physics">Physics</option>
+    </select>
+    </div>
+    <datalist id="professors"></datalist>
+    <div class="prof-container">
+      <p id="p2">No professors found matching your search.</p>
+      <a href="testimonial.html?prof=prof1">
+      <div id="Computer Science and Engineering" class="prof-card" data-name="Prof 1">
+        <img src="prof1.jpg" alt="Prof 1">
+        <p>Prof 1</p>
+      </div>
+      </a>
+      <a href="testimonial.html?prof=prof1">
+      <div id="Mechanical Engineering" class="prof-card" data-name="Prof 2">
+        <img src="prof2.jpg" alt="Prof 2">
+        <p>Prof 2</p>
+      </div>
+      </a>
+      <a href="testimonial.html?prof=prof1">
+      <div id="Civil Engineering" class="prof-card" data-name="Prof 3">
+        <img src="prof3.jpg" alt="Prof 3">
+        <p>Prof 3</p>
+      </div>
+      </a>
+      <a href="testimonial.html?prof=prof4">
+      <div id="Mathematics" class="prof-card" data-name="Prof 4">
+        <img src="prof4.jpg" alt="Prof 4">
+        <p>Prof 4</p>
+      </div>
+      </a>
+       <a href="testimonial.html?prof=prof4">
+      <div id="Mathematics" class="prof-card" data-name="Prof 5">
+        <img src="prof4.jpg" alt="Prof 5">
+        <p>Prof 5</p>
+      </div>
+      </a>
+       <a href="testimonial.html?prof=prof4">
+      <div id="Mathematics" class="prof-card" data-name="Prof 6">
+        <img src="prof4.jpg" alt="Prof 6">
+        <p>Prof 6</p>
+      </div>
+      </a>
+       <a href="testimonial.html?prof=prof4">
+      <div id="Mathematics" class="prof-card" data-name="Prof 4">
+        <img src="prof4.jpg" alt="Prof 7">
+        <p>Prof 7</p>
+      </div>
+      </a>
+       <a href="testimonial.html?prof=prof4">
+      <div id="Mathematics" class="prof-card" data-name="Prof 4">
+        <img src="prof4.jpg" alt="Prof 8">
+        <p>Prof 8</p>
+      </div>
+      </a>
+
+       <a href="testimonial.html?prof=prof4">
+      <div id="Mathematics" class="prof-card" data-name="Prof 4">
+        <img src="prof4.jpg" alt="Prof 9">
+        <p>Prof 9</p>
+      </div>
+      </a>
+    </div>
+  </div>
+</section>
+  </main>
+  <footer class="footer">
+    <div class="footer-container">
+
+    <!-- Logo and Description -->
+    <div class="footer-logo-section">
+      <img src="https://iitg.ac.in/sail/static/media/sail%20white%20logo%201.1a5b5ee342209483926a85aa53969a1f.svg" alt="SAIL Logo">
+      <p>Student Alumni<br>Interaction Linkage</p>
+
+      <div class="footer-social">
+        <a href="https://www.instagram.com/sail_iitg/#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.youtube.com/@IITGuwahatiSAIL" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQFIJ_oCkyCaKwAAAZf97PuA7YwLkCthdfdL0R760jrfjNacTn5jS5ZaZw9H61a5Lo3FzIQAR87A7ljih84UMaoJksZGqwBIeiPtKnMWCgp62sroy0uq8xXRuimPpHBEPXaI_Qo=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fsail-iitg%2F" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/sail.iitg/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook-messenger"></i></a>
+      </div>
+    </div>
+
+    <!-- Learn More -->
+    <div class="footer-column">
+      <h4>Learn More</h4>
+      <ul>
+        <li><a href="https://www.iitg.ac.in/aer/" target="_blank">Alumni & External Relations</a></li>
+        <li><a href="https://www.iitg.ac.in/" target="_blank">IIT Guwahati</a></li>
+        <li><a href="https://iitg.ac.in/sail/about">About Us</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact Us -->
+    <div class="footer-column">
+      <h4>Contact Us</h4>
+      <p>Call us:</p>
+      <p><a href="tel:+917020996986">+91-7020996986</a></p>
+      <p><a href="tel:+917060107025">+91-7060107025</a></p>
+      <p>Email us: <a href="mailto:SAIL@iitg.ac.in">SAIL@iitg.ac.in</a></p>
+    </div>
+  </div>
+
+  <!-- Divider -->
+  <div class="footer-line"></div>
+
+  <!-- Copyright -->
+  <div class="copyright">© 2025 SAIL All rights reserved.</div>
+</footer>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
